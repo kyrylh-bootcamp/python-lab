@@ -5,9 +5,9 @@ class DbConn():
         self.username = username
         self.password = password
     
-    def showConn(self):
+    def show_conn(self):
         print(f"The connection is succesful: {self.port}, {self.hostname}, {self.username}, {self.password}")
 
     
 dbConn = DbConn(443, "localhost", "admin", "admin123")
-dbConn.showConn()
+dbConn.show_conn()
